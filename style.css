@@ -4,13 +4,15 @@ body {
   justify-content: center;
   height: 100vh;
   display: flex;
-  background-color:beige;
+  background-color: beige;
 }
 
-.container {
+.quote_box {
   width: 500px;
   text-align: center;
-  margin: auto;
+  border: 2px black solid;
+  border-radius: 15px;
+  padding: 30px;
 }
 
 #quote {
